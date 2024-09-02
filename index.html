@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+    <h1 class="title">To Do List Diaria</h1>
+
+ <!-- Elemento para mostrar el reloj -->
+ <div id="clock"></div>
+
+    <ul id="taskList">
+        <!-- Ejemplo de quehaceres, puedes añadir o modificar estos ítems -->
+        <li>
+            <input type="checkbox" id="task1">
+            <label for="task1">Tarea 1: Desayunar</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task2">
+            <label for="task2">Tarea 2: Aprender algo</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task3">
+            <label for="task3">Tarea 3: Comer algo</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task4">
+            <label for="task4">Tarea 4: Leer</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task5">
+            <label for="task5">Tarea 5: Almorzar</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task6">
+            <label for="task6">Tarea 6: Hacer ejercicio</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task7">
+            <label for="task7">Tarea 7: Tomar suplementos</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task8">
+            <label for="task8">Tarea 8: Descanso</label>
+        </li>
+        <li>
+            <input type="checkbox" id="task9">
+            <label for="task9">Tarea 9: Comer</label>
+        </li>
+        <!-- Añade más tareas aquí -->
+    </ul>
+    
+    <button id="saveBtn">Guardar </button>
+
+    <div id="stats">
+        <p>Días cumplidos: <span id="daysCompleted">0</span></p>
+        <p>Días no cumplidos: <span id="daysNotCompleted">0</span></p>
+    </div>
+</div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
